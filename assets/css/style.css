@@ -124,7 +124,7 @@ aside.benefits {
 	background-color: #2589bd;
 }
 
-/* targeting aside.benefits article.benefits on html - describing the benefits */
+/* targeting aside.benefits article.benefits on html */
 /* removed color white */
 
 aside.benefits article.benefit {
@@ -152,7 +152,7 @@ footer {
 	text-align: center;
 }
 
-/* adding color black to footer, h4, span, so they become white. */
+/* adding color black to footer, h4, span, so they dont become white. */
 
 footer, h4 {
 	font-size: 20px;
