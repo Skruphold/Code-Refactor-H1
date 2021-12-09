@@ -7,6 +7,8 @@
 	color:#ffffff;
 }
 
+/* targeting body, a, p on the html*/
+
 body {
     background-color: #d9dcd6;
 }
@@ -21,7 +23,7 @@ p {
     font-size: 16px;
 }
 
-/* matching the headers to the html document */
+/* targeting the headers on the html document */
 
 header {
     padding: 20px;
@@ -38,7 +40,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* making header navs so it works with the html */
+/* targeting header navs so it works with the html */
 /* removed color white */
 
 header nav {
@@ -58,7 +60,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* matching section.hero to html document */
+/* targeting section.hero on html document */
 
 section.hero {
 	margin-bottom: 25px;
@@ -70,7 +72,7 @@ section.hero img {
 	object-fit: cover;
 }
 
-/*  matching to section.content on html */
+/*  targeting section.content on html */
 
 section.content {
 	width: 75%;
@@ -78,7 +80,7 @@ section.content {
 	margin-left: 20px;
 }
 
-/* matching to section.content article.contents on html - description of services */
+/* targeting section.content article.contents on html */
 /* removed color white */
 
 section.content article.content {
@@ -89,13 +91,9 @@ section.content article.content {
 	background-color: #0072bb;
 }
 
-section.content article.content img {
-	max-height: 200px;
-}
-
-section.content article.content img.float-left {
-	float: left;
-	margin-right: 25px;
+section.content article.content h2 {
+	margin-bottom: 20px;
+	font-size: 36px;
 }
 
 section.content article.content img.float-right {
@@ -103,12 +101,16 @@ section.content article.content img.float-right {
 	margin-left: 25px;
 }
 
-section.content article.content h2 {
-	margin-bottom: 20px;
-	font-size: 36px;
+section.content article.content img.float-left {
+	float: left;
+	margin-right: 25px;
 }
 
-/* matchingh to aside.benefits on html */
+section.content article.content img {
+	max-height: 200px;
+}
+
+/* targeting aside.benefits on html */
 /* removed color white */
 
 aside.benefits {
@@ -122,7 +124,7 @@ aside.benefits {
 	background-color: #2589bd;
 }
 
-/* matching to aside.benefits article.benefits on html - describing the benefits */
+/* targeting aside.benefits article.benefits on html - describing the benefits */
 /* removed color white */
 
 aside.benefits article.benefit {
@@ -141,7 +143,7 @@ aside.benefits article.benefit img {
 	max-width: 150px;
 }
 
-/* matching to Footers on html */
+/* targeting Footers on html */
 
 footer {
 	padding: 30px;
@@ -150,9 +152,9 @@ footer {
 	text-align: center;
 }
 
-/* adding color black to footer, h3, span, so they become white. */
+/* adding color black to footer, h4, span, so they become white. */
 
-footer, h3 {
+footer, h4 {
 	font-size: 20px;
 	color: black;
 }
